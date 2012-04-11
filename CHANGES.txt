@@ -1,6 +1,9 @@
 Changelog
 =========
 
+- Modify colouring algorithm to use HSV. H is between green and red 
+  based on ratio passing:failing. Saturation is based on missing:present.
+  [MatthewWilkes]
 - Fixed epic-level coloring to take account points of their stories
   [datakurre]
 - Fixed 'corejet-to-jit.xsl' to prefix scenario-ids with story-ids
